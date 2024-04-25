@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+    background-color: #fbf6ef;
+}
+nav{
+    background-color: #dce0d9;
+    height: 150px;
+}
+
+.headingLogo{
+    height: 120px;
+    width: 120px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.navBarContent{
+    height: 150px;
+    min-width: none;
+    display: flex;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.title{
+    width: 100px;
+    height: 150px;
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 00px;
+    justify-content: space-evenly;
+    
+}
+
+li{
+    border-left: 1px solid black;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.navButtons{
+    margin-left: 500px;
+    margin-top: 95px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    width: 680px;
+    padding-bottom: 20px;
+    
+}
+
+.heroImage{
+    height: 800px;
+    background-image: url(./Photos/HotelZHero-01.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mainContainer{
+    height: 1800px;
+    display: flex;
+}
+
+a:visited { text-decoration: none; color:black; }
+
+.photoContainer{
+    width: 1100px;
+    height: 1490px;
+    background-color: #ead7c3;
+    margin-left: 50px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+.projectContainer{
+    height: 1490px;
+    width: 600px;
+    background-color: #dce0d9;
+    margin-right: 50px;
+    margin-top: -75px;
+    margin-left: -350px;
+}
+
+.photoBox{
+    display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 1380px;
+    margin-left: 30px;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.photos{
+    width: 680px;
+    height: 400px;
+}
+
+#pic1{
+    background-image: url(./Photos/ZcaseStudy1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#pic2{
+    background-image: url(./Photos/ZcaseStudy2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#pic3{
+    background-image: url(./Photos/ZcaseStudy3.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.h2Project{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-top: 65px;
+}
+
+.projectP{
+    height: 1200px;
+    width: 520px;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+    line-height: 35px;
+    text-indent: 50px;
+}
+
+footer{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+}
+
+.footerLorem{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 0px 250px;
+    line-height: 40px;
+}
+
+.socialMedia{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.instagram{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(../Jan-Week-4/Photos/instagram-svgrepo-com.svg);
+    background-size: 100%;
+}
+
+.linkedIn{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(./Photos/linkedin-svgrepo-com.svg);
+    background-size: 100%;
+}
+
+.facebook{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(./Photos/facebook-svgrepo-com.svg);
+    background-size: 100%;
+}
+
+.twitter{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(../Jan-Week-4/Photos/twitter-svgrepo-com.svg);
+    background-size: 100%;
+}

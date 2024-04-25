@@ -1,0 +1,322 @@
+body{
+    margin: 0px;
+    background-color: #fbf6ef;
+}
+nav{
+    background-color: #dce0d9;
+    height: 150px;
+}
+
+.headingLogo{
+    height: 120px;
+    width: 120px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.navBarContent{
+    height: 150px;
+    min-width: none;
+    display: flex;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.title{
+    width: 100px;
+    height: 150px;
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 00px;
+    justify-content: space-evenly;
+    
+}
+
+li{
+    border-left: 1px solid black;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+a:visited { text-decoration: none; color:black; }
+
+
+.navButtons{
+    margin-left: 500px;
+    margin-top: 95px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    width: 680px;
+    padding-bottom: 20px;
+}
+
+.firstRow{
+    height: 800px;
+    display: flex;
+}
+
+.heroImage{
+    height: 600px;
+    background-image: url(./Photos/Front\ Hero.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.welcomeContainer{
+    width: 750px;
+    height: 450px;
+    background-color: #dce0d9;
+    margin-left: 40px;
+    margin-top: -130px;
+}
+
+.h2Welcome{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 295px;
+    padding-top: 20px;
+}
+
+.welcomeP{
+    width: 560px;
+    height: 220px;
+    padding-left: 100px;
+    
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ead7c3;
+    border: 3px solid #fbf6ef;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: #fbf6ef;
+}
+
+.galleryButton{
+    margin-left: 300px;
+}
+
+button:hover{
+    background-color: #fbf6ef;
+    color: #ead7c3;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.cafe{
+    width: 570px;
+    height: 800px;
+    background-image: url(./Photos/Front\ Page\ Cafe.png);
+    background-repeat: none;
+    background-size: 100%;
+    margin-left: 40px;
+}
+
+.bedroom{
+    width: 750px;
+    height: 440px;
+    margin-left: 40px;
+    margin-top: -440px;
+    background-image: url(./Photos/front\ page\ bed.jpg);
+    background-size: 100%;
+    background-repeat: none;
+}
+
+.aboutRow{
+    display: flex;
+    height: 500px;
+}
+
+.portraitBox{
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 680px;
+    height: 420px;
+    background-color: #ead7c3;
+}
+
+.portrait{
+    width: 660px;
+    height: 400px;
+    background-image: url(./Photos/Alix.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    margin: 10px;
+}
+
+.aboutBox{
+    width: 980px;
+    height: 420px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: -300px;
+    z-index: -1;
+    background-color: #dce0d9;
+}
+
+.h2About{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 540px;
+    padding-top: 30px;
+}
+
+.aboutContent{
+    height: 185px;
+    width: 570px;
+    padding-left: 360px;
+}
+
+.aboutButton{
+    margin-left: 568px;
+    margin-top: -250px;
+    z-index: 1;
+}
+
+.apptRow{
+    display: flex;
+    height: 500px;
+}
+
+.apptBox{
+    width: 980px;
+    height: 420px;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: #dce0d9;
+}
+
+.h2Appt{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding-left: 220px;
+    padding-top: 20px;
+}
+
+.apptContent{
+    height: 185px;
+    width: 570px;
+    padding-left: 75px;
+}
+
+.meetingBox{
+    margin-right: 40px;
+    margin-left: -300px;
+    margin-top: 100px;
+    width: 680px;
+    height: 420px;
+    background-color: #ead7c3;
+}
+
+.meetingPic{
+    width: 660px;
+    height: 400px;
+    background-image: url(./Photos/Alix\ with\ client.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    margin: 10px;
+}
+
+.apptButton{
+    margin-left: 270px;
+}
+
+.hotelZed{
+    margin-top: 60px;
+    height: 850px;
+    width: 100%;
+    background-image: url(./Photos/Front\ Page\ HotelZ.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.zedContent{
+    width: 800px;
+    height: 170px;
+    margin-top: -520px;
+    margin-left: 127px;
+}
+
+#zedPara{
+    color: #fbf6ef;
+}
+
+.zedButton{
+    margin-left: 127px;
+}
+
+footer{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    margin-top: 400px;
+}
+
+.footerLorem{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 0px 250px;
+    line-height: 40px;
+}
+
+.socialMedia{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.instagram{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(../Jan-Week-4/Photos/instagram-svgrepo-com.svg);
+    background-size: 100%;
+}
+
+.linkedIn{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(./Photos/linkedin-svgrepo-com.svg);
+    background-size: 100%;
+}
+
+.facebook{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(./Photos/facebook-svgrepo-com.svg);
+    background-size: 100%;
+}
+
+.twitter{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-image: url(../Jan-Week-4/Photos/twitter-svgrepo-com.svg);
+    background-size: 100%;
+}
